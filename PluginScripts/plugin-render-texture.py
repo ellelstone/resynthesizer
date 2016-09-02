@@ -196,7 +196,7 @@ register(
   ],
   [(PF_IMAGE, "new_image", "New, synthesized texture.")],
   render_texture,
-  menu="<Image>/Filters/Render",
+  menu="<Image>/Filters/Various additional/Resynthesizer",
   domain=("resynthesizer", gimp.locale_directory)
   )
 

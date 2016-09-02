@@ -171,7 +171,7 @@ register(
   ],
   [],
   heal_selection,
-  menu="<Image>/Filters/Enhance",
+  menu="<Image>/Filters/Various additional/Resynthesizer",
   domain=("resynthesizer", gimp.locale_directory)
   )
 

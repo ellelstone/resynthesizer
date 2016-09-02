@@ -111,7 +111,7 @@ register(
   ],
   [],
   plugin_main,
-  menu="<Image>/Edit",
+  menu="<Image>/Filters/Various additional/Resynthesizer",
   domain=("resynthesizer", gimp.locale_directory)
   )
 

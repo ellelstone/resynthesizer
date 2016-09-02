@@ -164,7 +164,7 @@ query()
 		nargs, nreturn_vals,
 		resynth_paramdefs, return_vals);
 		
-		gimp_plugin_menu_register(RESYNTH_CONTROLS_PDB_NAME, "<Image>/Filters/Map");
+		gimp_plugin_menu_register(RESYNTH_CONTROLS_PDB_NAME, "<Image>/Filters/Various additional/Resynthesizer");
 }
 
 

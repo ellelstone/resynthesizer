@@ -276,10 +276,10 @@ def transfer_style(image, drawable, source_drawable, percent_transfer, map_mode 
   # These are the originals base types, and this plugin might change the base types
   original_source_base_type = pdb.gimp_image_base_type(source_image)
   original_target_base_type = pdb.gimp_image_base_type(image)
-  
-  if original_source_base_type == INDEXED :
-    pdb.gimp_message(_("The style source cannot be of mode INDEXED"));
-    return
+#  In GIMP-CCE the image type will never be INDEXED  
+#  if original_source_base_type == INDEXED :
+#    pdb.gimp_message(_("The style source cannot be of mode INDEXED"));
+#    return
 
   if image == source_image and drawable == source_drawable:
     is_source_copy = False
@@ -389,7 +389,7 @@ register(
   ],
   [],
   transfer_style,
-  menu="<Image>/Filters/Map",
+  menu="<Image>/Filters/Various additional/Resynthesizer",
   domain=("resynthesizer", gimp.locale_directory)
   )
 
