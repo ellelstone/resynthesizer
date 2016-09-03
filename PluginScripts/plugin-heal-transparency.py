@@ -85,7 +85,7 @@ register(
   ],
   [],
   heal_transparency,
-  menu="<Image>/Filters/Various additional/Resynthesizer",
+  menu="<Image>/Filters/Community extensions/Resynthesizer (8-bit)",
   domain=("resynthesizer", gimp.locale_directory)
   )
 
